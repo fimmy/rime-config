@@ -1,0 +1,16 @@
+build
+lua
+*.userdb
+cn_dicts
+en_dicts
+opencc
+*.schema.yaml
+default.yaml
+installation.yaml
+rime.lua
+liangfen.dict.yaml
+melt_eng.dict.yaml
+symbols*.yaml
+user.yaml
+rime_ice.dict.yaml
+custom_phrase.txt
