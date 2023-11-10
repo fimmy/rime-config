@@ -25,9 +25,9 @@ style:
   font_face: Segoe UI Emoji:30:39, Noto Color Emoji, 霞鹜新晰黑 # 主要字体
   label_font_face: 霞鹜新晰黑 # 标签字体
   comment_font_face: 霞鹜新晰黑 # 注释字体
-  font_point: 16 # 主要字体大小
-  label_font_point: 14 # 标签字体大小
-  comment_font_point: 14 # 注释字体大小
+  font_point: 25 # 主要字体大小
+  label_font_point: 20 # 标签字体大小
+  comment_font_point: 20 # 注释字体大小
   mark_text: "" # 标记文本
 
   vertical_auto_reverse: false # 垂直排列时自动反转顺序
@@ -44,8 +44,8 @@ style:
     min_height: 0 # 最小高度限制
     max_height: 0 # 最大高度限制
     border_width: 1 # 窗口边框宽度
-    margin_x: 16 # 窗口左右边距
-    margin_y: 14 # 窗口上下边距
+    margin_x: 0 # 窗口左右边距
+    margin_y: 0 # 窗口上下边距
     spacing: 18 # 候选词间距
     hilite_spacing: 14 # 高亮显示间距
     shadow_offset_x: 6 # 阴影 X 轴偏移
