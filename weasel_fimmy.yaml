@@ -1,0 +1,103 @@
+# [app_options]
+# 针对特定应用的设置
+app_options:
+  firefox.exe:
+    inline_preedit: true   # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
+  cmd.exe:               # 带 .exe 的进程名：Weasel 15.0 及之前版本须小写; PR #1049 合并后释出的版本大小写不敏感
+    ascii_mode: true     # 英文模式
+  conhost.exe:
+    ascii_mode: true
+  windowsterminal.exe:
+    ascii_mode: true
+  pwsh.exe:
+    ascii_mode: true
+  powershell.exe:
+    ascii_mode: true
+# [End of <app_options>]
+
+# [style]
+# 字体；候选项、候选窗口的行为、布局及样式
+style:
+  # 默认配色方案
+  color_scheme: wechat
+  # 行内显示预编辑区：true；false
+  inline_preedit: true
+  # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  preedit_type: composition
+  # 候选项横排：true；false
+  horizontal: false
+  # 全局字体
+  # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback
+  # 详细设定请参考 <https://github.com/rime/weasel/wiki/字體設定>
+  font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3,霞鹜新晰黑, Microsoft YaHei, SF Pro, Segoe UI Emoji, Noto Color Emoji"
+  font_point: 24                           # 全局字体字号
+  label_font_point: 17                     # 标签字体字号，不设定 fallback 到 font_point
+  #comment_font_point: 13                   # 注释字体字号，不设定 fallback 到 font_point
+  label_font_face: "霞鹜新晰黑, Microsoft YaHei"       # 标签字体
+  comment_font_face: "霞鹜新晰黑, Microsoft YaHei"     # 注释字体
+  # 标签字符：例如 %s. 效果为 1. 2. 3. ....
+  label_format: "%s"
+style_layout:
+  # 边框宽度；又名 border
+  border_width: 1
+  # 候选框最小宽度
+  min_width: 200
+  # 候选项之间的间距
+  candidate_spacing: 0
+  # 高亮区域和内部文字的左右间距，如无特殊指定则依 hilite_padding 设置
+  hilite_padding_x: 6
+  # 高亮区域和内部文字的上下间距，如无特殊指定则依 hilite_padding 设置
+  hilite_padding_y: 3
+  # 主体元素和候选框的左右边距；为负值时，不显示候选框
+  margin_x: 11
+  # 主体元素的上下边距；为负值时，不显示候选框
+  margin_y: 9
+  # 候选窗口圆角半径
+  corner_radius: 9
+  # 候选背景色块圆角半径，又名 hilited_corner_radius
+  round_corner: 6
+  # 候选项和相应标签的间距
+  hilite_spacing: 6
+
+# [End of <style>]
+
+# [preset_color_schemes]
+# 配色设定
+# 在小狼毫用户目录新建 preview 文件夹，将自定义皮肤的截图重命名为 color_scheme_<name>.png 放入此文件夹，可以在「输入法设定」中看到自定义皮肤效果
+
+# 小狼毫配色在线设计：
+# [RIME 西米](https://fxliang.github.io/RimeSeeMe/)
+# [小狼毫配色详解](https://github.com/rime/weasel/wiki/定制小狼毫配色)
+
+preset_color_schemes:
+  ayaya:
+    name: "文文／Ayaya"
+    author: "Lufs X <i@isteed.cc>"
+    back_color: 0xF9F9F9
+    border_color: 0xE7E7E7
+    candidate_text_color: 0x121212
+    comment_text_color: 0x8E8E8E
+    hilited_candidate_back_color: 0xECE4FC
+    hilited_candidate_label_color: 0xB18FF4
+    hilited_candidate_text_color: 0x7A40EC
+    hilited_label_color: 0xA483EC
+    hilited_mark_color: 0x7A40EC
+    label_color: 0x888785
+    text_color: 0x8100EB
+  wechat:
+    name: WeChat-keyboard # 配色取自微信键盘
+    author: zsakvo
+    back_color: 0xFFFFFF # 背景
+    border_color: 0xDDDDDD # 边框
+    text_color: 0x424242 #输入区文字颜色
+    hilited_text_color: 0x424242 # 输入区高亮文字颜色
+    hilited_back_color: 0xDDDDDD # 输入区高亮背景
+    hilited_candidate_text_color: 0xFFFFFF # 第一候选项文字颜色
+    hilited_candidate_back_color: 0x75B100 # 第一候选项背景颜色
+    hilited_comment_text_color: 0x999999 # 注解文字高亮
+    candidate_text_color: 0x525252 # 其他候选项文字颜色
+    comment_text_color: 0x999999 # 其他候选项注解文字
+    label_color: 0xcac9c8 # 预选栏编号颜色
+    hilited_label_color: 0xFFFFFF #高亮候选区编号颜色
+
+# [End of <preset_color_schemes>]
