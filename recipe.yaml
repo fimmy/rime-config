@@ -10,3 +10,5 @@ install_files: >-
   double_pinyin.custom.yaml
   weasel_fimmy.yaml
   weasel.custom.yaml
+  fimmy.dict.yaml
+  rime_ice.custom.yaml
