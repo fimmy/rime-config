@@ -1,0 +1,12 @@
+# encoding: utf-8
+---
+recipe:
+  # Rx: others/recipes/full
+  args:
+  description: >-
+    rime-ice fimmy的个性化配置
+install_files: >-
+  default.custom.yaml
+  double_pinyin.custom.yaml
+  weasel_fimmy.yaml
+  weasel.custom.yaml
