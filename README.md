@@ -15,16 +15,8 @@ Enter package name, URL, user/repo or downloaded ZIP to install: iDvel/rime-ice:
 Enter package name, URL, user/repo or downloaded ZIP to install: fimmy/rime-config
 ```
 
-## 雾凇拼音方案
-
 ``` bash
-iDvel/rime-ice:others/recipes/full
-```
-
-## 个人自定义配置方案
-
-``` bash
-fimmy/rime-config
+iDvel/rime-ice:others/recipes/full fimmy/rime-config
 ```
 
 ## 配置好`雾凇拼音`后，复制文件到用户资料文件夹覆盖，修改`rime_ice.dict.yaml`，取消大字表的注释后重新部署即可
