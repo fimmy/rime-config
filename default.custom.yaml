@@ -1,7 +1,4 @@
 patch:
   schema_list:
-    - schema: double_pinyin
-    - schema: rime_ice               # 雾凇拼音（全拼）
-  "switcher/caption": 「选择输入方案」
-  "switcher/hotkeys":  # 切换输入方案快捷键
-    - F4
+    - schema: rime_mint            # 薄荷拼音
+    - schema: double_pinyin         # 自然码双拼

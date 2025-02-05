@@ -1,4 +1,4 @@
 patch:
-  "schema/name": 自然码双拼
+  "schema/name": 全拼
   "menu/page_size": 8           #候选词个数
   "switches/@1/reset": 0        #emoji重置

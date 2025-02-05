@@ -1,17 +1,3 @@
 patch:
-
-  # 针对特定应用的设置
-  "app_options/+": 
-    __include: "weasel_fimmy:/app_options"
-  "style/+":
-    __include: "weasel_fimmy:/style"
-  "style/layout/+":
-    __include: "weasel_fimmy:/style_layout"
-  "preset_color_schemes/+":
-    __include: "weasel_fimmy:/preset_color_schemes"
-  # [global settings]
-  # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
-  show_notifications: true
-  show_notifications_time: 1200              # 通知显示的时间，单位 ms
-  global_ascii: false                        # 切换为 ascii 模式时，是否影响所有窗口：true；false
-  # [End of <global settings>]
+  "style/horizontal": true
+  "style/inline_preedit": true
