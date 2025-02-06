@@ -2,6 +2,8 @@
 
 ## 基础配置：[薄荷拼音](https://github.com/Mintimate/oh-my-rime)
 
+## 字体：[霞鹜文楷 GB](https://github.com/lxgw/LxgwWenkaiGB)
+
 ## 安装或更新
 
 任务栏右键输入法->输入法设定->获取更多输入方案
