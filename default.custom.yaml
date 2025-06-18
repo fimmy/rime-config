@@ -2,3 +2,16 @@ patch:
   schema_list:
     - schema: rime_mint            # 薄荷拼音
     - schema: double_pinyin         # 自然码双拼
+
+
+__include: octagram   #启用语言模型
+#语言模型
+octagram:
+  __patch:
+    grammar:
+      language: wanxiang-lts-zh-hans  
+      collocation_max_length: 5
+      collocation_min_length: 2
+    translator/contextual_suggestions: true
+    translator/max_homophones: 7
+    translator/max_homographs: 7
