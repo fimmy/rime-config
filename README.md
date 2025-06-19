@@ -13,12 +13,6 @@
 Mintimate/oh-my-rime:plum/full fimmy/rime-config@oh-my-rime
 ```
 
-## 下载万象模型
-
-```pwsh
-curl -Lo "$env:AppData\Rime\wanxiang-lts-zh-hans.gram" https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram
-```
-
 | 文件                      | 说明               |
 | ------------------------- | ------------------ |
 | default.custom.yaml       | 全局自定义配置     |
@@ -26,5 +20,3 @@ curl -Lo "$env:AppData\Rime\wanxiang-lts-zh-hans.gram" https://github.com/amzxyz
 | rime_mint.custom.yaml      | 薄荷拼音自定义配置 |
 | weasel.custom.yaml        | 小狼毫自定义配置   |
 | recipe.yaml               | plum安装配置       |
-
-
