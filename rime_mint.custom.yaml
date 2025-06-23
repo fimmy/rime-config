@@ -2,3 +2,14 @@ patch:
   "schema/name": 全拼
   "menu/page_size": 8           #候选词个数
   "switches/@1/reset": 0        #emoji重置
+  "codeLengthLimit_processor": 100  # 设置拼音串最大长度为 100
+
+  # 语言模型
+  "grammar/language": wanxiang-lts-zh-hans
+  "grammar/collocation_max_length": 5
+  "grammar/collocation_min_length": 2
+
+  # translator 内加载
+  "translator/contextual_suggestions": true
+  "translator/max_homophones": 7
+  "translator/max_homographs": 7
