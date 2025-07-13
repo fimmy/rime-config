@@ -1,0 +1,4 @@
+patch:
+  schema/name: 全拼
+  translator/prism: wanxiang
+  switches/@7/reset: 0
