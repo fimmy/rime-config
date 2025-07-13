@@ -15,3 +15,7 @@
     ```bat
     iDvel/rime-ice:others/recipes/full fimmy/rime-config
     ```
+
+* [基于万象拼音配置](https://github.com/fimmy/rime-config/tree/rime-ice)
+    
+    手工安装
