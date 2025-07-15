@@ -1,4 +1,4 @@
 patch:
   schema_list:
     - schema: wanxiang
-    - schema: wanxiang_double
+    - schema: wanxiang_pinyin

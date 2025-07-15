@@ -1,8 +1,0 @@
-patch:
-  speller/algebra:
-    __patch:
-      - wanxiang_double.schema:/自然码
-  cn_en/user_dict: en_dicts/zrm
-  schema/name: 自然码
-  translator/prism: wanxiang_double
-  switches/@7/reset: 0
