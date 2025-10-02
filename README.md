@@ -16,6 +16,6 @@
     iDvel/rime-ice:others/recipes/full fimmy/rime-config
     ```
 
-* [基于万象拼音配置](https://github.com/fimmy/rime-config/tree/rime-ice)
+* [基于万象拼音配置](https://github.com/fimmy/rime-config/tree/wanxiang)
     
     手工安装
