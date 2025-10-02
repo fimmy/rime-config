@@ -1,4 +1,10 @@
+#使用之前请详细遍历每一行，都注释了功能点，看清楚是不是你要的，需不需要修改参数，哪些该留，哪些该删除，够语重心长了吧😄
 patch:
+  speller/algebra:
+    __patch:
+      #- 模糊音                                  # 这里启用后，本文件末尾可配置具体条目
+      - wanxiang_algebra:/base/全拼           # 可选输入方案名称：全拼，自然码, 自然龙, 汉心龙，小鹤双拼, 搜狗双拼, 微软双拼, 智能ABC, 紫光双拼, 国标双拼，拼音加加，乱序17
+  
   schema/name: 全拼
   translator/prism: wanxiang_pinyin
-  switches/@7/reset: 0
+  switches/@8/reset: 0
