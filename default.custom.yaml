@@ -4,5 +4,3 @@ patch:
   # 方案列表
   schema_list:
     - schema: wanxiang
-    - schema: wanxiang_pinyin
-
